@@ -1,0 +1,4 @@
+Archivos que contienen las palabras clave:
+
+D:\Unreal Projects\FortressGame\Content\test.uasset
+D:\Unreal Projects\FortressGame\Content\Packages\Fortress_SharedMaterials\Base_Material\Fortress_BaseMaterial_masked.uasset

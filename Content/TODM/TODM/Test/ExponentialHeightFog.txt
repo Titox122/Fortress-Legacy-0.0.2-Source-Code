@@ -1,0 +1,32 @@
+Begin Map
+   Begin Level
+      Begin Actor Class=/Script/Engine.ExponentialHeightFog Name=ExponentialHeightFog_2 Archetype=/Script/Engine.ExponentialHeightFog'/Script/Engine.Default__ExponentialHeightFog'
+         Begin Object Class=/Script/Engine.BillboardComponent Name="Sprite" Archetype=BillboardComponent'/Script/Engine.Default__ExponentialHeightFog:Sprite'
+         End Object
+         Begin Object Class=/Script/Engine.ExponentialHeightFogComponent Name="HeightFogComponent0" Archetype=ExponentialHeightFogComponent'/Script/Engine.Default__ExponentialHeightFog:HeightFogComponent0'
+         End Object
+         Begin Object Name="Sprite"
+            AttachParent="HeightFogComponent0"
+         End Object
+         Begin Object Name="HeightFogComponent0"
+            FogDensity=0.750000
+            FogHeightFalloff=0.750000
+            SecondFogData=(FogDensity=0.050000,FogHeightFalloff=1.500000,FogHeightOffset=-924.870300)
+            FogInscatteringColor=(R=0.218750,G=0.317299,B=1.000000,A=1.000000)
+            InscatteringColorCubemap=TextureCube'"/Game/TimeOfDay/FortressSky/LightFunction/T_Cubemap_Skylight_Subtle.T_Cubemap_Skylight_Subtle"'
+            InscatteringTextureTint=(R=0.250000,G=0.344607,B=1.000000,A=1.000000)
+            StartDistance=1750.000000
+            FogCutoffDistance=20000000.000000
+            RelativeLocation=(X=10172.889648,Y=298.005859,Z=99.996094)
+            RelativeRotation=(Pitch=0.000000,Yaw=0.000004,Roll=0.000000)
+         End Object
+         Component="HeightFogComponent0"
+         SpriteComponent="Sprite"
+         RootComponent="HeightFogComponent0"
+         ActorLabel="ExponentialHeightFog"
+         FolderPath="Light1"
+      End Actor
+   End Level
+Begin Surface
+End Surface
+End Map

@@ -1,0 +1,28 @@
+Begin Map
+   Begin Level
+      Begin Actor Class=/Script/Engine.SkyLight Name=SkyLight_2 Archetype=/Script/Engine.SkyLight'/Script/Engine.Default__SkyLight'
+         Begin Object Class=/Script/Engine.BillboardComponent Name="Sprite" Archetype=BillboardComponent'/Script/Engine.Default__SkyLight:Sprite'
+         End Object
+         Begin Object Class=/Script/Engine.SkyLightComponent Name="SkyLightComponent0" Archetype=SkyLightComponent'/Script/Engine.Default__SkyLight:SkyLightComponent0'
+         End Object
+         Begin Object Name="Sprite"
+            AttachParent="SkyLightComponent0"
+         End Object
+         Begin Object Name="SkyLightComponent0"
+            bCaptureEmissiveOnly=True
+            LightColor=(B=225,G=255,R=255,A=255)
+            bCastDeepShadow=True
+            RelativeLocation=(X=14.990581,Y=280.876709,Z=20.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=0.000000,Roll=0.000065)
+            Mobility=Movable
+         End Object
+         LightComponent="SkyLightComponent0"
+         SpriteComponent="Sprite"
+         RootComponent="SkyLightComponent0"
+         ActorLabel="SkyLight"
+         FolderPath="Light1"
+      End Actor
+   End Level
+Begin Surface
+End Surface
+End Map

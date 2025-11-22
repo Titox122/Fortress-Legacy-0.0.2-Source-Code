@@ -1,0 +1,44 @@
+Begin Map
+   Begin Level
+      Begin Actor Class=/Script/Engine.DirectionalLight Name=LightSource Archetype=/Script/Engine.DirectionalLight'/Script/Engine.Default__DirectionalLight'
+         Begin Object Class=/Script/Engine.DirectionalLightComponent Name="LightComponent0" Archetype=DirectionalLightComponent'/Script/Engine.Default__DirectionalLight:LightComponent0'
+         End Object
+         Begin Object Class=/Script/Engine.ArrowComponent Name="ArrowComponent0" Archetype=ArrowComponent'/Script/Engine.Default__DirectionalLight:ArrowComponent0'
+         End Object
+         Begin Object Name="LightComponent0"
+            OcclusionMaskDarkness=0.000000
+            OcclusionDepthRange=0.000000
+            DynamicShadowCascades=2
+            CascadeDistributionExponent=2.828572
+            ShadowDistanceFadeoutFraction=0.376190
+            LightSourceAngle=0.000000
+            bCastModulatedShadows=True
+            ModulatedShadowColor=(B=0,G=0,R=0,A=255)
+            bUsedAsAtmosphereSunLight=True
+            ShadowResolutionScale=2.000000
+            ShadowBias=1.000000
+            ShadowSharpen=0.200000
+            LightingChannels=(bChannel1=True)
+            LightFunctionMaterial=Material'"/Game/TimeOfDay/FortressSky/LightFunction/M_LF_Fortress.M_LF_Fortress"'
+            DisabledBrightness=1.000000
+            LightColor=(B=89,G=149,R=188,A=255)
+            RelativeRotation=(Pitch=-61.032326,Yaw=57.173279,Roll=160.941711)
+            RelativeScale3D=(X=1.000000,Y=1.000000,Z=1.000000)
+            Mobility=Movable
+         End Object
+         Begin Object Name="ArrowComponent0"
+            ArrowColor=(B=89,G=149,R=188,A=255)
+            AttachParent="LightComponent0"
+         End Object
+         ArrowComponent="ArrowComponent0"
+         DirectionalLightComponent="LightComponent0"
+         LightComponent="LightComponent0"
+         SpawnCollisionHandlingMethod=AlwaysSpawn
+         RootComponent="LightComponent0"
+         ActorLabel="Light Source"
+         FolderPath="Light1"
+      End Actor
+   End Level
+Begin Surface
+End Surface
+End Map
