@@ -1,10 +1,10 @@
-# Fortress-Legacy-0.0.1-Source-Code
-Source Code For The Old Version Of Fortress Legacy 0.0.1
+# Fortress-Legacy-0.0.2-Source-Code
+Source Code For The Old Version Of Fortress Legacy 0.0.2
 
 # What Does this Include?
 
 1: Accurate Lighting
-2: Gameplay From Fortress Legacy 0.0.1
+2: Gameplay From Fortress Legacy 0.0.2
 
 # How Do I Compile This?
 
