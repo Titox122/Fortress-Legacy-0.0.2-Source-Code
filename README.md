@@ -8,6 +8,8 @@ Source Code For The Old Version Of Fortress Legacy 0.0.2
 
 # How Do I Compile This?
 
+-Download And Use UE4 4.24
+
 -Clone or download the project
 
 -Right-click on the .uproject file
